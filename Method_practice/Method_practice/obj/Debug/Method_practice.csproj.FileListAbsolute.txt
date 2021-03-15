@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\bin\Debug\Method_practice.exe.config
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\bin\Debug\Method_practice.exe
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\bin\Debug\Method_practice.pdb
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\obj\Debug\Method_practice.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\obj\Debug\Method_practice.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\obj\Debug\Method_practice.exe
+C:\Users\Prudent\source\repos\c# practice\Method_practice\Method_practice\obj\Debug\Method_practice.pdb

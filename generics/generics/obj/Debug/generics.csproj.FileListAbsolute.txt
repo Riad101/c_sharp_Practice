@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\generics\generics\bin\Debug\generics.exe.config
+C:\Users\Prudent\source\repos\c# practice\generics\generics\bin\Debug\generics.exe
+C:\Users\Prudent\source\repos\c# practice\generics\generics\bin\Debug\generics.pdb
+C:\Users\Prudent\source\repos\c# practice\generics\generics\obj\Debug\generics.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\generics\generics\obj\Debug\generics.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\generics\generics\obj\Debug\generics.exe
+C:\Users\Prudent\source\repos\c# practice\generics\generics\obj\Debug\generics.pdb
