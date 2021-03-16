@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C8BB4DA8-45A0-4236-82EA-F5BC6CC71CEF}</ProjectGuid>
+    <ProjectGuid>{01A5C1C0-B0F3-42D5-905B-5EA6FAFDADFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Constructors</RootNamespace>
-    <AssemblyName>Constructors</AssemblyName>
+    <RootNamespace>Inheritance_practice</RootNamespace>
+    <AssemblyName>Inheritance_practice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="Order.cs" />
+    <Compile Include="CompositionLogger.cs" />
+    <Compile Include="DbMigrator.cs" />
+    <Compile Include="Installer.cs" />
+    <Compile Include="PresentationObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

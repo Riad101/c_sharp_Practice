@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\bin\Debug\AbstractClass.exe.config
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\bin\Debug\AbstractClass.exe
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\bin\Debug\AbstractClass.pdb
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\obj\Debug\AbstractClass.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\obj\Debug\AbstractClass.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\obj\Debug\AbstractClass.exe
+C:\Users\Prudent\source\repos\c# practice\AbstractClass\AbstractClass\obj\Debug\AbstractClass.pdb

@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\bin\Debug\Indexer.exe.config
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\bin\Debug\Indexer.exe
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\bin\Debug\Indexer.pdb
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\obj\Debug\Indexer.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\obj\Debug\Indexer.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\obj\Debug\Indexer.exe
+C:\Users\Prudent\source\repos\c# practice\Indexer\Indexer\obj\Debug\Indexer.pdb
