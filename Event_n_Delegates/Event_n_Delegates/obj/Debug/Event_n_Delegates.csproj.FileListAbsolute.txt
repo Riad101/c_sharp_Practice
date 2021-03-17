@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\bin\Debug\Event_n_Delegates.exe.config
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\bin\Debug\Event_n_Delegates.exe
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\bin\Debug\Event_n_Delegates.pdb
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\obj\Debug\Event_n_Delegates.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\obj\Debug\Event_n_Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\obj\Debug\Event_n_Delegates.exe
+C:\Users\Prudent\source\repos\c# practice\Event_n_Delegates\Event_n_Delegates\obj\Debug\Event_n_Delegates.pdb
