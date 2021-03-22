@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.exe.config
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.exe
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\bin\Debug\LINQ_Practice.pdb
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.exe
+C:\Users\Prudent\source\repos\c# practice\LINQ_Practice\LINQ_Practice\obj\Debug\LINQ_Practice.pdb

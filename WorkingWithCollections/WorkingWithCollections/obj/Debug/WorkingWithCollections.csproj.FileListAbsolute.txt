@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\bin\Debug\WorkingWithCollections.exe.config
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\bin\Debug\WorkingWithCollections.exe
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\bin\Debug\WorkingWithCollections.pdb
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\obj\Debug\WorkingWithCollections.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\obj\Debug\WorkingWithCollections.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\obj\Debug\WorkingWithCollections.exe
+C:\Users\Prudent\source\repos\c# practice\WorkingWithCollections\WorkingWithCollections\obj\Debug\WorkingWithCollections.pdb
