@@ -1,0 +1,7 @@
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\bin\Debug\LINQ_Excercise.exe.config
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\bin\Debug\LINQ_Excercise.exe
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\bin\Debug\LINQ_Excercise.pdb
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\obj\Debug\LINQ_Excercise.csprojAssemblyReference.cache
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\obj\Debug\LINQ_Excercise.csproj.CoreCompileInputs.cache
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\obj\Debug\LINQ_Excercise.exe
+C:\Users\Prudent\source\repos\c# practice\LINQ_Excercise\LINQ_Excercise\obj\Debug\LINQ_Excercise.pdb
