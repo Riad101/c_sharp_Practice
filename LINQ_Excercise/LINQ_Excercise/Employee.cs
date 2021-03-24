@@ -11,6 +11,7 @@ namespace LINQ_Excercise
         public int AnnualSalary { get; set; }
         public string JobTitle { get; set; }
         public string City { get; set; }
+        public string Department { get; set; }
 
         public static List<Employee> GetAllEmployees()
         {
@@ -24,7 +25,8 @@ namespace LINQ_Excercise
                 Gender = "Male",
                 AnnualSalary = 60000,
                 JobTitle = "Sr.Developer",
-                City = "London"
+                City = "London",
+                Department = "IT"
             },
             new Employee
             {
@@ -34,7 +36,8 @@ namespace LINQ_Excercise
                 Gender = "Male",
                 AnnualSalary = 72000,
                 JobTitle = "Sr.Developer",
-                City = "London"
+                City = "London",
+                Department = "IT"
             },
             new Employee
             {
@@ -44,6 +47,8 @@ namespace LINQ_Excercise
                 Gender = "Female",
                 AnnualSalary = 48000,
                 JobTitle = "Developer",
+                City = "Calgary",
+                Department = "IT"
             },
             new Employee
             {
@@ -53,7 +58,8 @@ namespace LINQ_Excercise
                 Gender = "Female",
                 AnnualSalary = 84000,
                 JobTitle = "Sr.Developer",
-                City = "London"
+                City = "London",
+                Department = "IT"
             },
             new Employee
             {
@@ -62,8 +68,9 @@ namespace LINQ_Excercise
                 LastName = "Penn",
                 Gender = "Female",
                 AnnualSalary = 85000,
-                JobTitle = "Sr.Developer",
-                City = "Calgary"
+                JobTitle = "Sr.Executive",
+                City = "Calgary",
+                Department = "HR"
             },
             new Employee
             {
@@ -73,7 +80,44 @@ namespace LINQ_Excercise
                 Gender = "Female",
                 AnnualSalary = 45000,
                 JobTitle = "Developer",
-                City = "Calgary"
+                City = "Calgary",
+                Department = "IT"
+            },
+
+            new Employee
+            {
+                EmployeeID = 108,
+                FirstName = "Sam",
+                LastName = "Penn",
+                Gender = "Male",
+                AnnualSalary = 75000,
+                JobTitle = "Sr.Executive",
+                City = "Toronto",
+                Department = "HR"
+            },
+
+            new Employee
+            {
+                EmployeeID = 109,
+                FirstName = "Harry",
+                LastName = "Penn",
+                Gender = "Male",
+                AnnualSalary = 55000,
+                JobTitle = "Executive",
+                City = "Toronto",
+                Department = "HR"
+            },
+
+            new Employee
+            {
+                EmployeeID = 110,
+                FirstName = "Joey",
+                LastName = "Potter",
+                Gender = "Female",
+                AnnualSalary = 60000,
+                JobTitle = "Executive",
+                City = "Toronto",
+                Department = "HR"
             },
 
         };

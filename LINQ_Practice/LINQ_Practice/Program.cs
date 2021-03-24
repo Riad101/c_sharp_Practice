@@ -6,16 +6,57 @@ using System.Threading.Tasks;
 
 namespace LINQ_Practice
 {
-    class Program
+    public class Employee
     {
-        public class Car
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Gender { get; set; }
+        public int AnnualSalary { get; set; }
+
+        public static List<Employee> GetAllEmployees()
         {
-            public string Make { get; set; }
-            public string Model { get; set; }
-            public int Year { get; set; }
-            public string VIN { get; set; }
+            List<Employee> listEmployees = new List<Employee>
+        {
+            new Employee
+            {
+                EmployeeID = 101,
+                FirstName = "Tom",
+                LastName = "Daely",
+                Gender = "Male",
+                AnnualSalary = 60000
+            },
+            new Employee
+            {
+                EmployeeID = 102,
+                FirstName = "Mike",
+                LastName = "Mist",
+                Gender = "Male",
+                AnnualSalary = 72000
+            },
+            new Employee
+            {
+                EmployeeID = 103,
+                FirstName = "Mary",
+                LastName = "Lambeth",
+                Gender = "Female",
+                AnnualSalary = 48000
+            },
+            new Employee
+            {
+                EmployeeID = 104,
+                FirstName = "Pam",
+                LastName = "Penny",
+                Gender = "Female",
+                AnnualSalary = 84000
+            },
+        };
+
+            return listEmployees;
         }
-        static void Main(string[] args)
+    }
+
+    static void Main(string[] args)
         {
             List<Car> myCars = new List<Car>() {
                 new Car() { Make = "Marcedez", Model = "i50l", VIN = "A5", Year= 2010},
@@ -47,13 +88,25 @@ namespace LINQ_Practice
             //var firstBMW = myCars.OrderByDescending(p=> p.Year).First(p => p.Make == "BMW");
             //Console.WriteLine(firstBMW.VIN);
 
-            Console.WriteLine(myCars.TrueForAll(p=> p.Year > 2009));
-           
+            //Console.WriteLine(myCars.TrueForAll(p=> p.Year > 2009));
+
 
             //foreach (var car in orderCar)
             //{
             //    Console.WriteLine("{0} {1}", car.Year, car.Model, car.VIN);
             //}
+
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            var result = numbers
+                 .Select((num, index) => new { Number = num, Index = index })
+                 .Where(X => X.Number % 2 == 0)
+                 .Select(X=> X.Index);
+
+            foreach (var i in result)
+            {
+                Console.WriteLine(i);
+            }
         }
-    }
+    
 }

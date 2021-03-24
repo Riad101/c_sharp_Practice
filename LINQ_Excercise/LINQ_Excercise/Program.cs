@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LINQ_Excercise
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -86,6 +86,7 @@ namespace LINQ_Excercise
             //    Console.WriteLine(str);
             //}
 
+            //ToLookUp
             var employeeByTitle = Employee.GetAllEmployees().ToLookup(s => s.JobTitle);
 
             Console.WriteLine("Employees Grouped By JobTitle");
@@ -98,6 +99,78 @@ namespace LINQ_Excercise
                     Console.WriteLine("\t" + item.FirstName + "\t" + item.JobTitle + "\t" + item.City);
                 }
             }
+
+            var employeeByCIty = Employee.GetAllEmployees().ToLookup(s => s.City);
+
+            Console.WriteLine("Employees Grouped By City Location");
+            foreach (var kvpCity in employeeByCIty)
+            {
+                Console.WriteLine(kvpCity.Key);
+                foreach (var i in employeeByCIty[kvpCity.Key])
+                {
+                    Console.WriteLine("\t" + i.FirstName + "\t" + i.JobTitle + "\t" + i.City);
+                }
+            }
+
+            //GroupBy
+            var employeeGroup = Employee.GetAllEmployees().GroupBy(x => x.Department);
+            foreach (var group in employeeGroup)
+            {
+                Console.WriteLine("{0}-{1}", group.Key, group.Count());
+                //Console.WriteLine("{0}-{1}", group.Key, group.Max(s=>s.AnnualSalary));
+                Console.WriteLine("-------------------");
+                foreach (var i in group)
+                {
+                    Console.WriteLine(i.FirstName + "\t" + i.Department);
+                }
+                Console.WriteLine(); Console.WriteLine();
+            }
+
+            var EmployeeGroups = Employee.GetAllEmployees()
+                .GroupBy(x => new { x.Department, x.Gender })
+                .OrderBy(g => g.Key.Department).ThenBy(g => g.Key.Gender)
+                .Select(g => new
+                {
+                    Dept = g.Key.Department,
+                    Gender = g.Key.Gender,
+                    Employee = g.OrderBy(a=> a.FirstName)
+                });
+            foreach (var group in EmployeeGroups)
+            {
+                Console.WriteLine("{0} Department {1} employee count= {2}", 
+                    group.Dept, group.Gender, group.Employee.Count());
+                Console.WriteLine("-------------------------------");
+                foreach (var n in group.Employee)
+                {
+                    Console.WriteLine(n.FirstName + "\t" + n.Gender + "\t" + n.Department);
+                    
+                }
+                Console.WriteLine(); Console.WriteLine();
+            }
+
+            //GroupJoin
+            var employeeByDepartment = Department.GetAllDepartments()
+                                        .GroupJoin(EmployeeTable.GetAllEmployeeTable(),
+                                        d=> d.ID,
+                                        e=> e.DepartmentID,
+                                        (dept, emp) => new
+                                        {
+                                            Department = dept,
+                                            EmployeeTable = emp
+                                        });
+
+            foreach (var dept in employeeByDepartment)
+            {
+                Console.WriteLine(dept.Department.Name);
+                foreach (var emp in dept.EmployeeTable)
+                {
+                    Console.WriteLine(" " + emp.Name);
+                }
+                Console.WriteLine();
+            }
+
+
+
         }
     }
 }
